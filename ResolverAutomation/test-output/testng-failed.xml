@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [the Index Automation Suite]">
+  <test thread-count="5" name="Automation_Test(failed)">
+    <classes>
+      <class name="com.tests.IndexTest">
+        <methods>
+          <include name="index_Test4"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="quit"/>
+          <include name="index_Test1"/>
+          <include name="index_Test2"/>
+          <include name="index_Test5"/>
+          <include name="index_Test3"/>
+          <include name="index_Test6"/>
+        </methods>
+      </class> <!-- com.tests.IndexTest -->
+    </classes>
+  </test> <!-- Automation_Test(failed) -->
+</suite> <!-- Failed suite [the Index Automation Suite] -->
